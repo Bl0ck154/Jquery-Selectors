@@ -1,0 +1,58 @@
+body {
+    background: floralwhite;
+}
+h1 {
+	text-align: center;
+}
+li {
+	cursor: pointer;
+}
+.mytip {
+	position: fixed;
+	margin-bottom:15px;
+    width:12%;
+    background-color: #ffffff;
+    border: 2px solid #D4D4D4;
+    border-radius: 30px;
+    box-shadow: 0 0 15px #A9A9A9;
+    padding:20px;
+    right: 70px;
+}
+.active {
+	border: 2px dotted red;
+}
+.main-form {
+	display: none;
+}
+
+.drop-menu-main a {
+    text-decoration: none;
+    color: #555555;
+    padding: 0 10px 0 0;
+}
+ 
+.drop-menu-main {
+    padding: 4px;
+    height: 20px;
+    position: relative;
+}
+ 
+.drop-menu-main-sub {
+    display: none;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+    z-index: 100;
+    width: 130px;
+    padding: 5px 0 5px;
+}
+ 
+.drop-menu-main-sub a {
+    color: #555555;
+    display: block;
+    font-size: 12px;
+    padding: 6px 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
